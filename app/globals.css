@@ -1,3 +1,7 @@
+.Header {
+  backgrund-color: #d73cbe;
+}
+
 @media only screen and (max-width: 600px) {
 
   .Header {
@@ -15,13 +19,13 @@
   }
 
   .Menu, a {
-    color: black;
+    color: white;
     padding: 5px;
     text-decoration: none;
   }
 
   .Menu_Visible {
-    background-color: grey;
+    background-color: #d73cbe;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -47,13 +51,13 @@
   }
 
   .Menu, a {
-    color: black;
+    color: white;
     padding: 5px;
     text-decoration: none;
   }
 
   .Menu_Visible {
-    background-color: grey;
+    background-color: #d73cbe;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -82,7 +86,7 @@
   }
 
   .Menu, a {
-    color: black;
+    color: white;
     padding: 5px;
     text-decoration: none;
   }
@@ -114,7 +118,7 @@
   }
 
   .Menu, a {
-    color: black;
+    color: white;
     margin-left: 10px;
     padding: 5px;
     text-decoration: none;
