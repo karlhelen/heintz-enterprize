@@ -3,8 +3,8 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Heintz Enterprize</h1>
+    <div className="Header">
+      <h1>We value what matters most to you</h1>
     </div>
   );
 }
