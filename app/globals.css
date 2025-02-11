@@ -1,12 +1,17 @@
 .Banner {
-  background-image: url("./Home.png");
+  background-image: url();
 }
 
 .Header {
-  backgrund-color: #d73cbe;
+  background-color: #d73cbe;
 }
 
 @media only screen and (max-width: 600px) {
+
+  .ContactUs {
+    padding: 5px;
+    text-align: center;
+  }
 
   .Header {
     display: flex;
@@ -23,9 +28,19 @@
   }
 
   .Menu, a {
+    border-radius: 5px;
     color: white;
+    margin-bottom: 1px;
     padding: 5px;
     text-decoration: none;
+  }
+
+  .Menu, a:hover {
+    background-color: grey;
+  }
+
+  .Menu, a:active {
+    background-color: grey;
   }
 
   .Menu_Visible {
@@ -35,9 +50,19 @@
     padding: 20px;
   }
 
+  .ShopItem_Card {
+    border-radius: 5px;
+    margin: 5px;
+  }
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
+
+  .ContactUs {
+    padding: 10px;
+    text-align: center;
+  }
 
   .Header {
     display: flex;
@@ -55,9 +80,19 @@
   }
 
   .Menu, a {
+    border-radius: 5px;
     color: white;
+    margin-bottom: 2px;
     padding: 5px;
     text-decoration: none;
+  }
+
+  .Menu, a:hover {
+    background-color: grey;
+  }
+
+  .Menu, a:active {
+    background-color: grey;
   }
 
   .Menu_Visible {
@@ -67,9 +102,20 @@
     padding: 20px;
   }
 
+  .ShopItem_Card {
+    border-radius: 5px;
+    margin: 5px;
+  }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
+
+  .ContactUs {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
 
   .Header {
     display: flex;
@@ -90,18 +136,43 @@
   }
 
   .Menu, a {
+    border-radius: 5px;
+    margin-left: 1px;
     color: white;
     padding: 5px;
     text-decoration: none;
+  }
+
+  .Menu, a:hover {
+    background-color: grey;
+  }
+
+  .Menu, a:active {
+    background-color: grey;
   }
 
   .Mobile_Menu {
     display: none;
   }
 
+  .ShopItem_Card {
+    border-radius: 5px;
+    margin: 5px;
+  }
+
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1400px) {
+
+  .ContactUs {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .ContactUs_Details_Section {
+    padding: 0 20px;
+  }
 
   .Header {
     display: flex;
@@ -122,14 +193,29 @@
   }
 
   .Menu, a {
+    border-radius: 5px;
+    margin-left: 2px;
     color: white;
     margin-left: 10px;
     padding: 5px;
     text-decoration: none;
   }
 
+  .Menu, a:hover {
+    background-color: grey;
+  }
+
+  .Menu, a:active {
+    background-color: grey;
+  }
+
   .Mobile_Menu {
     display: none;
+  }
+
+  .ShopItem_Card {
+    border-radius: 5px;
+    margin: 5px;
   }
 
 }
