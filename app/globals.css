@@ -1,15 +1,28 @@
-.Banner {
-  background-image: url();
+.Footer {
+  background-color: grey;
 }
 
 .Header {
   background-color: #d73cbe;
 }
 
+.Banner_Section {
+  background-image: url("../public/Home.png");
+  height: 500px;
+}
+
+a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
 
   .ContactUs {
     padding: 5px;
+    text-align: center;
+  }
+
+  .Footer {
     text-align: center;
   }
 
@@ -64,6 +77,10 @@
     text-align: center;
   }
 
+  .Footer {
+    text-align: center;
+  }
+
   .Header {
     display: flex;
     flex-direction: column;
@@ -111,48 +128,61 @@
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
 
+  .Banner_Section {
+    color: white;
+    padding: 90px 150px 90px 90px;
+  }
+
   .ContactUs {
     display: flex;
     flex-direction: column;
     padding: 15px;
   }
 
+  .ContactUs_Details_Section {
+    padding: 0 20px;
+  }
+
+  .ContactUs_Form {
+    align-items: center;
+  }
+
+  .Footer {
+    padding: 20px;
+  }
+
+  .Footer_Details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Footer_Details > div {
+    width: 50%;
+  }
+
   .Header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
   }
 
   .Logo {
-    height: 60px;
-    width: 60px;
-  }
-
-  .Menu {
-    display: flex;
-    flex-direction: row;
-    padding-top: 15px;
-  }
-
-  .Menu, a {
-    border-radius: 5px;
-    margin-left: 1px;
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  .Menu, a:hover {
-    background-color: grey;
-  }
-
-  .Menu, a:active {
-    background-color: grey;
+    padding-left: 5px;
   }
 
   .Mobile_Menu {
     display: none;
+  }
+
+  .Navigation {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Navigation, a {
+    color: white;
+    padding: 10px;
   }
 
   .ShopItem_Card {
@@ -164,6 +194,11 @@
 
 @media only screen and (min-width: 993px) and (max-width: 1400px) {
 
+  .Banner_Section {
+    color: white;
+    padding: 90px 150px 90px 90px;
+  }
+
   .ContactUs {
     display: flex;
     flex-direction: column;
@@ -174,48 +209,59 @@
     padding: 0 20px;
   }
 
+  .ContactUs_Form {
+    align-items: center;
+  }
+
+  .Footer {
+    padding: 30px;
+  }
+
+  .Footer_Details {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .Footer_Details > div {
+    width: 50%;
+  }
+
+  .Footer, a {
+    color: black;
+  }
+
   .Header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 50px;
   }
 
   .Logo {
-    height: 70px;
-    width: 70px;
-  }
-
-  .Menu {
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px;
-  }
-
-  .Menu, a {
-    border-radius: 5px;
-    margin-left: 2px;
-    color: white;
-    margin-left: 10px;
-    padding: 5px;
-    text-decoration: none;
-  }
-
-  .Menu, a:hover {
-    background-color: grey;
-  }
-
-  .Menu, a:active {
-    background-color: grey;
+    padding-left: 10px;
   }
 
   .Mobile_Menu {
     display: none;
   }
 
+  .Navigation {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Navigation, a {
+    color: white;
+    padding: 10px;
+  }
+
   .ShopItem_Card {
     border-radius: 5px;
     margin: 5px;
+  }
+
+  h1 {
+    font-size: 70px;
   }
 
 }

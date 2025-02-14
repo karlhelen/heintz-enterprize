@@ -13,12 +13,12 @@ export default function Header() {
 
   return (
     <div className="Header">
-      <div className="Logo">
-        <div>
+      <div className="Header_Sections">
+        <div className="Logo">
           <Link href="/"><h5>Heintz Enterprize</h5></Link>
         </div>
 
-        <div className="Mobile_Menu" style={{padding: "20px"}}>
+        <div className="Mobile_Menu" style={{ padding: "20px" }}>
           <button onClick={showMenu} className={ !mobileMenu ? "" : "Menu" }>=</button>
           <button onClick={showMenu} className={ mobileMenu ? "" : "Menu" }>X</button>
         </div>  
