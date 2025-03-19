@@ -1,95 +1,65 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <main className="Home">
+      <div className="Banner_Section">
+        <h1>Connecting all of us with the world</h1><br />
+        <p>The leading product and service provider for the past 7 years.</p>
+      </div>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+      <div className="Pride_Section">
+        <h5>We pride ourselves in creating the best working environment.</h5><br />
+        <p>We create systematic solutions to solve current problems.</p>
+      </div>
+
+      <div className="Business_Section">
+        <h1>Business Management Tools</h1>
+        <div>
+          <div>
+            <h1>Company Registration</h1>
+            <Link href="/services/business-management/registration">Read</Link>
+          </div>
+          <div>
+            <h1>Marketing</h1>
+            <Link href="/services/business-management/marketing">Read</Link>
+          </div>
+          <div>
+            <h1>Branding</h1>
+            <Link href="/services/business-management/branding">Read</Link>
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      <div className="Sports_Section">
+        <h1>Sports Management</h1>
+        <div>
+          <div>
+            <h1>Organising</h1>
+          </div>
+          <div>
+            <h1>Activity Management</h1>
+          </div>
+          <div>
+            <h1>Training</h1>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h1>Music Project Management</h1>
+        <div>
+          <div><h1>Record Deal</h1></div>
+          <div><h1>PR Campaigns</h1></div>
+        </div>
+      </div>
+
+      <div className="Shop_Section">
+        <h1>Shop</h1><br />
+        <div></div>
+      </div>
+    </main>
   );
 }
