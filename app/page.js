@@ -97,7 +97,7 @@ export default function Home() {
             <p>[Insert text here]</p>
           </div>
         </div>
-        <div></div>
+        <div><iframe src="https://www.youtube.com/embed/wBq5E-VtOJ4?si=QYn4PmpT0sqwGFW9" allowFullscreen /></div>
       </div>
 
       <div className="Shop_Section">
