@@ -1,6 +1,14 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
 @media only screen and (max-width: 600px) {
 
-.Banner_Section {
+  .Banner_Section {
   background-image: url("../public/Home.png");
   color: white;
   height: 500px;
@@ -36,7 +44,72 @@
   background-color: #d73cbe;
   background-image: url("../public/Home.png");
   color: white;
+  height: 500px;
   padding: 90px 150px 90px 90px;
+}
+
+.Branding {
+  width: 30%;
+}
+
+.Business_Section {
+  padding: 20px;
+}
+
+.Business_Sect_Tools {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Comp_Reg {
+  margin-left: 3px;
+  width: 30%;
+}
+
+.Header {
+  background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Logo {
+  padding: 10px;
+}
+
+.Marketing {
+  margin-left: 3px;
+  width: 30px;
+}
+
+.Mobile_Menu {
+  display: none;
+}
+
+.Navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+.Navigation, a {
+  color: white;
+  padding: 10px;
+}
+
+.ShopItemCard {
+  border: 1px solid #d73cbe;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+p {
+  font-size: 25px;
 }
 
 }
