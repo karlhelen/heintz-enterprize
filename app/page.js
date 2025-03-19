@@ -49,15 +49,15 @@ export default function Home() {
         <h1>Business Management Tools</h1>
         <div className="Business_Sect_Tools">
           <div className="Comp_Reg">
-            <h1>Company Registration</h1>
+            <h4>Company Registration</h4>
             <Link href="/services/business-management/registration">Read</Link>
           </div>
           <div className="Marketing">
-            <h1>Marketing</h1>
+            <h4>Marketing</h4>
             <Link href="/services/business-management/marketing">Read</Link>
           </div>
           <div className="Branding">
-            <h1>Branding</h1>
+            <h4>Branding</h4>
             <Link href="/services/business-management/branding">Read</Link>
           </div>
         </div>
@@ -67,28 +67,28 @@ export default function Home() {
         <h1>Sports Management</h1>
         <div>
           <div>
-            <h1>Organising</h1>
+            <h4>Organising</h4>
           </div>
           <div>
-            <h1>Activity Management</h1>
+            <h4>Activity Management</h4>
           </div>
           <div>
-            <h1>Training</h1>
+            <h4>Training</h4>
           </div>
         </div>
       </div>
 
-      <div>
-        <h1>Music Project Management</h1>
+      <div className="Artist_Section">
+        <h1>Artist Management</h1>
         <div>
-          <div><h1>Record Deal</h1></div>
-          <div><h1>PR Campaigns</h1></div>
+          <div><h4>Record Deal</h4></div>
+          <div><h4>PR Campaigns</h4></div>
         </div>
       </div>
 
       <div className="Shop_Section">
-        <h1>Shop</h1><br />
-        <div>{shopItems.map((item) => (<ShopItemCard key={item.id} image={item.image} name={item.name} price={item.price} />))}</div>
+        <h1 style={{ textAlign: "center" }}>Shop</h1><br />
+        <div className="Shop_Sect_Items">{shopItems.map((item) => (<ShopItemCard key={item.id} image={item.image} name={item.name} price={item.price} />))}</div>
       </div>
     </main>
   );

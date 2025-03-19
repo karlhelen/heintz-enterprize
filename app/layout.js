@@ -1,6 +1,13 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Rasa } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
+
+const rasa = Rasa({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-rasa',
+  weight: ['300', '400', '500', '600', '700']
+})
 
 export const metadata = {
   title: "Create Next App",

@@ -4,7 +4,7 @@ export const ShopItemCard = ({ image, name, price }) => {
 
   return (
     <div className="ShopItemCard">
-      <div><Image src={image} alt="Item Image" width="50" height="60" /></div>
+      <div style={{ textAlign: "center" }}><Image src={image} alt="Item Image" width={100} height={100} /></div>
       <h6>{name}</h6>
       <p>{price}</p>
     </div>

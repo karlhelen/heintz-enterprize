@@ -1,9 +1,18 @@
 a {
+  font-family: monospace;
   text-decoration: none;
 }
 
 body {
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: monospace;
+}
+
+p {
+  font-family: monospace;
 }
 
 @media only screen and (max-width: 600px) {
@@ -40,6 +49,10 @@ body {
 
 @media only screen and (min-width: 993px) and (max-width: 1400px) {
 
+.Artist_Section {
+  padding: 20px;
+}  
+
 .Banner_Section {
   background-color: #d73cbe;
   background-image: url("../public/Home.png");
@@ -48,23 +61,14 @@ body {
   padding: 90px 150px 90px 90px;
 }
 
-.Branding {
-  width: 30%;
-}
-
 .Business_Section {
   padding: 20px;
 }
 
 .Business_Sect_Tools {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.Comp_Reg {
-  margin-left: 3px;
-  width: 30%;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .Header {
@@ -76,11 +80,6 @@ body {
 
 .Logo {
   padding: 10px;
-}
-
-.Marketing {
-  margin-left: 3px;
-  width: 30px;
 }
 
 .Mobile_Menu {
@@ -100,12 +99,46 @@ body {
 .ShopItemCard {
   border: 1px solid #d73cbe;
   border-radius: 5px;
-  margin: 10px;
   padding: 10px;
+  width: 200px;
+}
+
+.Shop_Section {
+  padding: 20px;
+}
+
+.Shop_Sect_Items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Sports_Section {
+  padding: 20px;
 }
 
 h1 {
   font-size: 70px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 20px;
 }
 
 p {
