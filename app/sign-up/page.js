@@ -1,3 +1,6 @@
+import redirect from "next/navigation";
+import { signup } from "../../../lib/actions.js";
+
 export default async funtion Signup() {
 
   return (
