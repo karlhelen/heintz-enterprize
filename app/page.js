@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
 import { ShopItemCard } from "./components/shopItemCard";
+import ReactPlayer from "react-player";
 
 export default function Home() {
 
@@ -49,15 +50,18 @@ export default function Home() {
         <h1>Business Management Tools</h1>
         <div className="Business_Sect_Tools">
           <div className="Comp_Reg">
-            <h4>Company Registration</h4>
+            <h4>Company Registration</h4><br />
+            <p>[Insert text here]</p>
             <Link href="/services/business-management/registration">Read</Link>
           </div>
           <div className="Marketing">
-            <h4>Marketing</h4>
+            <h4>Marketing</h4><br />
+            <p>[Insert text here]</p>
             <Link href="/services/business-management/marketing">Read</Link>
           </div>
           <div className="Branding">
-            <h4>Branding</h4>
+            <h4>Branding</h4><br />
+            <p>[Insert text here]</p>
             <Link href="/services/business-management/branding">Read</Link>
           </div>
         </div>
@@ -67,13 +71,16 @@ export default function Home() {
         <h1>Sports Management</h1>
         <div>
           <div>
-            <h4>Organising</h4>
+            <h4>Organising</h4><br />
+            <p>[Insert text here]</p>
           </div>
           <div>
-            <h4>Activity Management</h4>
+            <h4>Activity Management</h4><br />
+            <p>[Insert text here]</p>
           </div>
           <div>
-            <h4>Training</h4>
+            <h4>Training</h4><br />
+            <p>[Insert text here]</p>
           </div>
         </div>
       </div>
@@ -81,9 +88,16 @@ export default function Home() {
       <div className="Artist_Section">
         <h1>Artist Management</h1>
         <div>
-          <div><h4>Record Deal</h4></div>
-          <div><h4>PR Campaigns</h4></div>
+          <div>
+            <h4>Record Deal</h4><br />
+            <p>[Insert text here]</p>
+          </div>
+          <div>
+            <h4>PR Campaigns</h4><br />
+            <p>[Insert text here]</p>
+          </div>
         </div>
+        <div><ReactPlayer url='https://youtu.be/wBq5E-VtOJ4?feature=shared' /></div>
       </div>
 
       <div className="Shop_Section">
