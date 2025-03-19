@@ -97,7 +97,7 @@ export default function Home() {
             <p>[Insert text here]</p>
           </div>
         </div>
-        <div><ReactPlayer url='https://youtu.be/wBq5E-VtOJ4?feature=shared' /></div>
+        <div></div>
       </div>
 
       <div className="Shop_Section">
