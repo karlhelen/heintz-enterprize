@@ -1,6 +1,6 @@
 import { getSession } from "../../../lib/actions.js";
 
-export defualt async function() {
+export default async function Dashboard() {
 
   const session = await getSession();
 

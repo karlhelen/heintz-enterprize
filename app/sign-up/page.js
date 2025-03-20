@@ -1,8 +1,10 @@
+"use client";
+
 import redirect from "next/navigation";
 import { useState } from "react";
 import { signup } from "../../../lib/actions.js";
 
-export default async function Signup() {
+export default function Signup() {
 
   const [ user, setUser ] = useState({
     firstName: "",
@@ -21,11 +23,11 @@ export default async function Signup() {
           await signup(formData);
           redirect('/dashboard');
         }}>
-          <input type="text" name="firstName" placeholder="First Name" onChange={(e) => setUser.firstName(e.target.value)} required />
-          <input type="text" name="lastName" placeholder="Surname" onChange={(e) => setUser.lastName(e.target.value)} required />
-          <input type="email" name="email" placeholder="Email" onChange={(e) => setUser.email(e.target.value)} required />
-          <input type="telephone" name="cellphone" placeholder="Cellphone" onChange={(e) => setUser.cellphone(e.target.value)} required />
-          <input type="password" name="password" placeholder="Password" onChange={(e) => setUser.password(e.target.value)} required />
+          <input type="text" name="firstName" placeholder="First Name" value={user.firstName} onChange={(e) => setUser.firstName(e.target.value)} required />
+          <input type="text" name="lastName" placeholder="Surname" value={user.lastName} onChange={(e) => setUser.lastName(e.target.value)} required />
+          <input type="email" name="email" placeholder="Email" value={user.email} onChange={(e) => setUser.email(e.target.value)} required />
+          <input type="telephone" name="cellphone" placeholder="Cellphone" value={user.cellphone} onChange={(e) => setUser.cellphone(e.target.value)} required />
+          <input type="password" name="password" placeholder="Password" value={user.password} onChange={(e) => setUser.password(e.target.value)} required />
           <input type="password" name="confirmMethod" placeholder="Confirm Password" />
           <button type="submit">Sign Up</button>
         </form>

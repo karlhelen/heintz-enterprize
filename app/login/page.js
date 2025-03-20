@@ -1,3 +1,5 @@
+"use client";
+
 import redirect from "next/navigation";
 import { useState } from "react";
 import { login } from "../../../lib/actions.js";
@@ -18,8 +20,8 @@ export default function Login() {
           await login(formData);
           redirect('/dashboard');
         }}>
-          <input type="email" name="email" onChange={(e) => setUser.email(e.target.value)} placeholder="Email" />
-          <input type="password" name="password" onChange={(e) => setUser.password(e.target.value)} placeholder="Password" />
+          <input type="email" name="email" value={user.email} onChange={(e) => setUser.email(e.target.value)} placeholder="Email" />
+          <input type="password" name="password" value={user.password} onChange={(e) => setUser.password(e.target.value)} placeholder="Password" />
           <button type="submit">Login</button>
         </form>
       </div>
