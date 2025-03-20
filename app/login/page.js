@@ -1,7 +1,13 @@
 import redirect from "next/navigation";
+import { useState } from "react";
 import { login } from "../../../lib/actions.js";
 
 export default function Login() {
+
+  const [ user, setUser ] = useState({
+    email: "",
+    password: ""
+  });
 
   return (
     <main>
@@ -12,8 +18,8 @@ export default function Login() {
           await login(formData);
           redirect('/dashboard');
         }}>
-          <input type="email" placeholder="Email" />
-          <input type="password" placeholder="Password" />
+          <input type="email" name="email" onChange={(e) => setUser.email(e.target.value)} placeholder="Email" />
+          <input type="password" name="password" onChange={(e) => setUser.password(e.target.value)} placeholder="Password" />
           <button type="submit">Login</button>
         </form>
       </div>
