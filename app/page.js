@@ -41,7 +41,7 @@ export default function Home() {
 
   return (
     <main className="Home">
-      <div className="Banner_Section">
+      <div className="Banner1_Section">
         <h1>Connecting all of us<span><br /></span> with the world</h1><br />
         <p>We create systematic solutions to solve problems.</p>
       </div>

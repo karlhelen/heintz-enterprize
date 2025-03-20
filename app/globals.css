@@ -17,8 +17,8 @@ p {
 
 @media only screen and (max-width: 600px) {
 
-  .Banner_Section {
-  background-image: url("../public/Home.png");
+  .Banner1_Section {
+  background-image: url("../public/Banner-1.png");
   color: white;
   height: 500px;
   padding: 5px;
@@ -28,8 +28,8 @@ p {
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
 
-.Banner_Section {
-  background-image: url("../public/Home.png");
+.Banner1_Section {
+  background-image: url("../public/Banner-1.png");
   color: white;
   height: 500px;
   padding: 15px;
@@ -39,8 +39,8 @@ p {
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
 
-.Banner_Section {
-  background-image: url("../public/Home.png");
+.Banner1_Section {
+  background-image: url("../public/Banner-1.png");
   color: white;
   padding: 90px 150px 90px 90px;
 }
@@ -50,18 +50,20 @@ p {
 @media only screen and (min-width: 993px) and (max-width: 1400px) {
 
 .Artist_Section {
+  background-image: url("../public/Banner-2.jpg");
   padding: 20px;
 }  
 
-.Banner_Section {
+.Banner1_Section {
   background-color: #d73cbe;
-  background-image: url("../public/Home.png");
+  background-image: url("../public/Banner-1.png");
   color: white;
   height: 500px;
   padding: 90px 150px 90px 90px;
 }
 
 .Business_Section {
+  background-image: url("../public/Banner-4.jpg");
   padding: 20px;
 }
 

@@ -10,6 +10,8 @@ export default function Navigation() {
       <div><Link href="/products">Products</Link></div>
       <div><Link href="/news">News</Link></div>
       <div><Link href="/contact-us">Contact Us</Link></div>
+      <div><Link href="/login">Login</Link></div>
+      <div><Link href="/sign-up">Sign Up</Link></div>
     </div>
   );
 }
