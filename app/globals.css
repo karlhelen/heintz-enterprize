@@ -27,7 +27,98 @@ p {
   color: white;
   height: 500px;
   padding: 5px;
-}
+  }
+
+  .Business_Section {
+    background-image: url("../public/Banner-4.jpg");
+    padding: 20px;
+  }
+
+  .Business_Sect_Tools {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header_Sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Hide {
+    display: none;
+  }
+
+  .Logo {
+    padding: 10px;
+  }
+
+  .Navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .Navigation, a {
+    color: white;
+    padding: 10px;
+  }
+
+  .ShopItemCard {
+    border: 1px solid #d73cbe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .Shop_Section {
+    padding: 5px;
+  }
+
+  .Shop_Sect_Items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+
+  .Sports_Section {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  h6 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 
 }
 
@@ -42,7 +133,98 @@ p {
     background-image: url("../public/Banner-1.png");
     color: white;
     height: 500px;
-    padding: 15px;
+    padding: 10px;
+  }
+
+  .Business_Section {
+    background-image: url("../public/Banner-4.jpg");
+    padding: 10px;
+  }
+
+  .Business_Sect_Tools {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Header_Sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Hide {
+    display: none;
+  }
+
+  .Logo {
+    padding: 10px;
+  }
+
+  .Navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .Navigation, a {
+    color: white;
+    padding: 10px;
+  }
+
+  .ShopItemCard {
+    border: 1px solid #d73cbe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .Shop_Section {
+    padding: 10px;
+  }
+
+  .Shop_Sect_Items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+
+  .Sports_Section {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 35px;
+  }
+
+  h5 {
+    font-size: 30px;
+  }
+
+  h6 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 18px;
   }
 
 }
@@ -60,18 +242,110 @@ p {
     padding: 90px 150px 90px 90px;
   }
 
+  .Business_Section {
+    background-image: url("../public/Banner-4.jpg");
+    padding: 15px;
+  }
+
+  .Business_Section {
+    background-image: url("../public/Banner-4.jpg");
+    padding: 15px;
+  }
+
+  .Business_Sect_Tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Header {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Logo {
+    padding: 10px;
+  }
+
+  .Mobile_Navigation {
+    display: none;
+  }
+
+  .Navigation {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Navigation, a {
+    color: white;
+    padding: 10px;
+  }
+
+  .ShopItemCard {
+    border: 1px solid #d73cbe;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .Shop_Section {
+    padding: 15px;
+  }
+
+  .Shop_Sect_Items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Sports_Section {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 55px;
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 45px;
+  }
+
+  h5 {
+    font-size: 40px;
+  }
+
+  h6 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1400px) {
 
   .Artist_Section {
     background-image: url("../public/Banner-2.jpg");
+    background-repeat: no-repeat;
     padding: 20px;
   }  
 
   .Banner1_Section {
     background-color: #d73cbe;
     background-image: url("../public/Banner-1.png");
+    background-position: top;
     color: white;
     height: 500px;
     padding: 90px 150px 90px 90px;
@@ -79,6 +353,7 @@ p {
 
   .Business_Section {
     background-image: url("../public/Banner-4.jpg");
+    color: white;
     padding: 20px;
   }
 
@@ -99,7 +374,7 @@ p {
     padding: 10px;
   }
 
-  .Mobile_Menu {
+  .Mobile_Navigation {
     display: none;
   }
 
@@ -135,7 +410,7 @@ p {
   }
 
   h1 {
-    font-size: 70px;
+    font-size: 65px;
   }
 
   h2 {
@@ -143,23 +418,23 @@ p {
   }
 
   h3 {
-    font-size: 50px;
+    font-size: 55px;
   }
 
   h4 {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   h5 {
-    font-size: 30px;
+    font-size: 45px;
   }
 
   h6 {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   p {
-    font-size: 25px;
+    font-size: 20px;
   }
 
 }

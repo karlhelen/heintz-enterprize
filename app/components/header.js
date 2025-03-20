@@ -18,13 +18,13 @@ export default function Header() {
           <Link href="/">Heintz Enterprize</Link>
         </div>
 
-        <div className="Mobile_Menu" style={{ padding: "20px" }}>
-          <button onClick={showMenu} className={ !mobileMenu ? "" : "Menu" }>=</button>
-          <button onClick={showMenu} className={ mobileMenu ? "" : "Menu" }>X</button>
+        <div className="Mobile_Navigation" style={{ padding: "20px" }}>
+          <button onClick={showMenu} className={ !mobileMenu ? "" : "Hide" }>=</button>
+          <button onClick={showMenu} className={ mobileMenu ? "" : "Hide" }>X</button>
         </div>  
       </div>
 
-      <div className={ mobileMenu ? "Menu_Visible" : "Menu" }>
+      <div className={ mobileMenu ? "" : "Hide" }>
         <Navigation />
       </div>
     </div>    
