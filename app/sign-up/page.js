@@ -1,8 +1,6 @@
 "use client";
 
-import redirect from "next/navigation";
 import { useState } from "react";
-import { signup } from "../../../lib/actions.js";
 
 export default function Signup() {
 
@@ -18,7 +16,7 @@ export default function Signup() {
     <main>
       <h1>Sign Up</h1>
       <div>
-        <form action={signup}>
+        <form>
           <input type="text" name="firstName" placeholder="First Name" value={user.firstName} onChange={(e) => setUser.firstName(e.target.value)} required />
           <input type="text" name="lastName" placeholder="Surname" value={user.lastName} onChange={(e) => setUser.lastName(e.target.value)} required />
           <input type="email" name="email" placeholder="Email" value={user.email} onChange={(e) => setUser.email(e.target.value)} required />
